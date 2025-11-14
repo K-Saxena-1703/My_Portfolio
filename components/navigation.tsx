@@ -36,9 +36,7 @@ export default function Navigation({ scrollY }: NavigationProps) {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
         <div className="flex-shrink-0">
-          <button onClick={() => handleScroll("hero")} className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity">
-            Krishna Saxena
-          </button>
+          <button onClick={() => handleScroll("hero")} className="text-xl sm:text-2xl md:text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent hover:opacity-80 transition-opacity">Krishna Saxena</button>
         </div>
 
         {/* Desktop Navigation */}
