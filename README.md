@@ -26,7 +26,7 @@ A modern, fully responsive portfolio website built with Next.js 16, React 19, Ta
 ## 🛠 Tech Stack
 
 - **Framework** - [Next.js 16](https://nextjs.org)
-- **Runtime** - React 19.2
+- **Runtime** - [React 19.2](https://react.dev/blog/2025/10/01/react-19-2)
 - **Styling** - [Tailwind CSS 4](https://tailwindcss.com)
 - **Language** - [TypeScript](https://www.typescriptlang.org)
 - **UI Components** - [shadcn/ui](https://ui.shadcn.com)
@@ -121,7 +121,7 @@ npm start
 ## 📧 Contact
 
 - **Email** - [k.saxena.1703@gmail.com](mailto:k.saxena.1703@gmail.com)
-- **Phone** - +91 8532943421
+- **Phone** - +91 85329 43421
 - **GitHub** - [github.com/K-Saxena-1703](https://github.com/K-Saxena-1703)
 - **LinkedIn** - [linkedin.com/in/krishna-saxena-6807b2376](https://www.linkedin.com/in/krishna-saxena-6807b2376)
 
@@ -160,9 +160,9 @@ npm run lint
 
 ## 🏆 Certifications
 
-- Vibe Hackathon 2025 Certificate - By UnStop
-- Web Development Certificate - By EDUCBA
 - ChatGPT Certificate - By Guvi | HCL
+- Web Development Certificate - By EDUCBA
+- Vibe Hackathon 2025 Certificate - By Unstop
 - Ministry of Youth Affair & Sports Certificate - By MYBharat
 - Sardar 150 Young Leaders Program - By MYBharat
 
@@ -170,6 +170,7 @@ npm run lint
 
 - **[Job Opportunities Platform](https://jovian-job-opportunities.vercel.app/)** - A platform connecting job seekers with opportunities
 - **[ClaryGuide](https://clary-guide.vercel.app/)** - A guidance and learning platform
+- **[Scientific Calculator](https://scientific-calculator-maths.vercel.app/)** - Advanced scientific calculator for precise and complex mathematical computations.
 
 ## 📝 License
 
