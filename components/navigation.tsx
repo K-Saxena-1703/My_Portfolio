@@ -48,7 +48,7 @@ export default function Navigation({ scrollY }: NavigationProps) {
             href="#contact"
             className="px-6 py-2 rounded-full bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all"
           >
-            Hire Me
+            Contact Me
           </a>
         </div>
 
