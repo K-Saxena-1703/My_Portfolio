@@ -41,17 +41,9 @@ export default function Navigation({ scrollY }: NavigationProps) {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
-            <button
-              key={item.id}
-              onClick={() => handleScroll(item.id)}
-              className={`text-sm font-medium transition-all duration-300 pb-2 border-b-2 ${activeSection === item.id
-                  ? "border-accent text-accent"
-                  : "border-transparent text-foreground/70 hover:text-foreground"
-                }`}
-            >
-              {item.label}
-            </button>
-          ))}
+            <button key={item.id} onClick={() => handleScroll(item.id)} className={`text-sm font-medium transition-all duration-300 pb-2 border-b-2 ${activeSection === item.id? "border-accent text-accent": "border-transparent text-foreground/70 hover:text-foreground"}`}> {item.label}
+            </button>))
+          }
           <a
             href="#contact"
             className="px-6 py-2 rounded-full bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all"

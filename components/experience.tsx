@@ -41,11 +41,11 @@ export default function Experience() {
   }, [])
 
   const certificates: Certificate[] = [
-    { name: "ChatGPT Certificate", issuer: "Guvi | HCL" },
+    { name: "Hack With Uttar Pradesh 2025 Participation Certificate", issuer: "Blackbox AI" },
+    { name: "Internal SIH 2025 Participation Certificate", issuer: "Rajiv Academy for Technology & Management, Mathura" },
+    { name: "Vibe Hackathon 2025 Participation Certificate", issuer: "Unstop" },
+    { name: "ChatGPT Certification", issuer: "Guvi | HCL" },
     { name: "Web Development Certificate", issuer: "EDUCBA" },
-    { name: "Vibe Hackathon 2025 Certificate", issuer: "Unstop" },
-    { name: "Ministry of Youth Affair & Sports Certificate", issuer: "MYBharat" },
-    { name: "Sardar 150 Young Leaders Program", issuer: "MYBharat" },
   ]
 
   const experiences: ExperienceItem[] = [
