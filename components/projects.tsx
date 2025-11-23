@@ -35,6 +35,15 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
+      title: "ClaryGuide",
+      description:
+        "An intelligent guidance platform designed to help users navigate complex processes with clear, step-by-step assistance.",
+      image: "/claryguide-platform.jpg",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS","Vercel"],
+      liveUrl: "https://clary-guide.vercel.app/",
+      codeUrl: "https://github.com/BahubaliNalte/ClaryGuide",
+    },
+    {
       title: "Job Opportunities Platform",
       description:
         "A comprehensive platform connecting job seekers with employers, featuring advanced job search, application management, and recruiter tools.",
@@ -42,15 +51,6 @@ export default function Projects() {
       tags: ["HTML", "CSS", "BOOTSTRAP", "MUSTACHE.js", "Vercel"],
       liveUrl: "https://jovian-job-opportunities.vercel.app/",
       codeUrl: "https://github.com/K-Saxena-1703",
-    },
-    {
-      title: "ClaryGuide",
-      description:
-        "An intelligent guidance platform designed to help users navigate complex processes with clear, step-by-step assistance.",
-      image: "/claryguide-platform.jpg",
-      tags: ["Next.js", "React", "TypeScript", "Vercel"],
-      liveUrl: "https://clary-guide.vercel.app/",
-      codeUrl: "https://github.com/BahubaliNalte/ClaryGuide",
     },
     {
       title: "Scientific Calculator",
