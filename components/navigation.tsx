@@ -30,9 +30,8 @@ export default function Navigation({ scrollY }: NavigationProps) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrollY > 50 ? "glass-dark py-3" : "py-4 sm:py-6"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrollY > 50 ? "glass-dark py-3" : "py-4 sm:py-6"
+        }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-4">
         <div className="flex-shrink-0">
@@ -45,11 +44,10 @@ export default function Navigation({ scrollY }: NavigationProps) {
             <button
               key={item.id}
               onClick={() => handleScroll(item.id)}
-              className={`text-sm font-medium transition-all duration-300 pb-2 border-b-2 ${
-                activeSection === item.id
+              className={`text-sm font-medium transition-all duration-300 pb-2 border-b-2 ${activeSection === item.id
                   ? "border-accent text-accent"
                   : "border-transparent text-foreground/70 hover:text-foreground"
-              }`}
+                }`}
             >
               {item.label}
             </button>
