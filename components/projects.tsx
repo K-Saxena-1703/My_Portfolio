@@ -44,6 +44,15 @@ export default function Projects() {
       codeUrl: "https://github.com/BahubaliNalte/ClaryGuide",
     },
     {
+      title: "Revival",
+      description:
+        "Revival is an AI-powered platform that helps retailers sell verified dead stock using smart pricing and demand prediction — reducing waste and boosting profits.",
+      image: "/Revival.png",
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS","Vercel"],
+      liveUrl: "https://revival-india.vercel.app/",
+      codeUrl: "https://github.com/K-Saxena-1703/Revival",
+    },
+    {
       title: "Job Opportunities Platform",
       description:
         "A comprehensive platform connecting job seekers with employers, featuring advanced job search, application management, and recruiter tools.",
@@ -51,15 +60,6 @@ export default function Projects() {
       tags: ["HTML", "CSS", "BOOTSTRAP", "MUSTACHE.js", "Vercel"],
       liveUrl: "https://jovian-job-opportunities.vercel.app/",
       codeUrl: "https://github.com/K-Saxena-1703",
-    },
-    {
-      title: "Scientific Calculator",
-      description:
-        "Advanced scientific calculator for precise and complex mathematical computations.",
-      image: "/scientific-calculator.png",
-      tags: ["HTML", "CSS", "Script.js", "Vercel"],
-      liveUrl: "https://scientific-calculator-maths.vercel.app/",
-      codeUrl: "https://github.com/K-Saxena-1703/Scientific_Calculator",
     },
   ]
 
