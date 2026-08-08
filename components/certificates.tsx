@@ -49,7 +49,7 @@ export default function Certifications() {
     { name: "PADHO INDIA 12 Days Summer Camp", issuer: "By PADHO INDIA" },
     { name: "VBYLD 2026", issuer: "By MYBharat" },
     { name: "My Bharat Budget Quest 2026", issuer: "By MYBharat" },
-    { name: "nasha Mukt Yuva", issuer: "By MYBharat" },
+    { name: "Nasha Mukt Yuva", issuer: "By MYBharat" },
     { name: "Sardar 150 Young Leaders Program", issuer: "By MYBharat" },
     { name: "Viksit Uttar Pradesh @2047", issuer: "By Uttar Pradesh Government" },
     { name: "Digital Road Safety", issuer: "By Road Safety India" },
