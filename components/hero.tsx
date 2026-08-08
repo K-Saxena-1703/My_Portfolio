@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export default function Hero() {
   const staticText = "Building digital experiences that matter ";
-  const words = ["Code.", "Design.", "Deliver."];
+  const words = ["Design.", "Code.", "Deliver."];
 
   const [displayText, setDisplayText] = useState("");
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
@@ -52,8 +52,8 @@ export default function Hero() {
 
   const downloadResume = () => {
     const link = document.createElement("a")
-    link.href = "/Krishna_Resume.pdf"
-    link.download = "Krishna_Resume.pdf"
+    link.href = "/Krishna_Saxena_Resume.pdf"
+    link.download = "Krishna_Saxena_Resume.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -67,7 +67,7 @@ export default function Hero() {
           <div className="text-center md:text-left">
             <div className="mb-6 flex justify-center md:justify-start">
               <span className="px-4 py-2 rounded-full glass-dark text-accent text-xs sm:text-sm font-medium">
-                Welcome to my portfolio
+                Welcome to my Portfolio
               </span>
             </div>
 

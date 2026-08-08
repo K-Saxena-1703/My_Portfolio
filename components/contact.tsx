@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState, useRef, useEffect } from "react"
-import { Mail, Send, Check } from "lucide-react"
+import { Mail, Send, Check, Phone } from "lucide-react"
 
 export default function Contact() {
   const [isVisible, setIsVisible] = useState(false)
@@ -130,6 +130,20 @@ export default function Contact() {
                     <h3 className="font-semibold text-sm sm:text-base mb-1">Email</h3>
                     <a href="mailto:k.saxena.1703@gmail.com" className="text-accent hover:underline text-xs sm:text-sm">
                       k.saxena.1703@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="glass-dark p-4 sm:p-6 rounded-lg">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center flex-shrink-0">
+                    <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-primary-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-sm sm:text-base mb-1">Phone</h3>
+                    <a href="tel:+918532943421" className="text-accent hover:underline text-xs sm:text-sm">
+                      +91 85329 43421
                     </a>
                   </div>
                 </div>

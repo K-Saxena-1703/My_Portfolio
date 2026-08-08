@@ -15,6 +15,7 @@ export default function Navigation({ scrollY }: NavigationProps) {
     { label: "About", id: "about" },
     { label: "Projects", id: "projects" },
     { label: "Experience", id: "experience" },
+    { label: "Certificates", id: "certificates" },
     { label: "Skills", id: "skills" },
     { label: "Contact", id: "contact" },
   ]

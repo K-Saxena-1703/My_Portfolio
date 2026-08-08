@@ -27,14 +27,17 @@ export default function About() {
   const education = [
     {
       level: "BCA (Pursuing)",
-      percentage: "-",
+      percentage: "",
       school: "Rajiv Academy for Technology and Management, Mathura",
       board: "DBRAU",
     },
-    { level: "Class 12", percentage: "70%", school: "Kanha Makhan Millennium School, Mathura", board: "CBSE" },
+    { level: "Class 12",
+      percentage: "2025",
+      school: "Kanha Makhan Millennium School, Mathura with Science Stream (PCM)",
+      board: "CBSE" },
     {
       level: "Class 10",
-      percentage: "91%",
+      percentage: "2023",
       school: "Parmeshwari Devi Dhanuka Saraswati Vidya Mandir, Vrindavan",
       board: "CBSE",
     },

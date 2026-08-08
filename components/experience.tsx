@@ -14,7 +14,7 @@ interface ExperienceItem {
   icon?: React.ReactNode
 }
 
-interface Certificate {
+interface Hackathons {
   name: string
   issuer: string
 }
@@ -40,15 +40,30 @@ export default function Experience() {
     return () => observer.disconnect()
   }, [])
 
-  const certificates: Certificate[] = [
-    { name: "Hack With Uttar Pradesh 2025 Participation Certificate", issuer: "Blackbox AI" },
-    { name: "Internal SIH 2025 Participation Certificate", issuer: "Rajiv Academy for Technology & Management, Mathura" },
-    { name: "Vibe Hackathon 2025 Participation Certificate", issuer: "Unstop" },
-    { name: "ChatGPT Certification", issuer: "Guvi | HCL" },
-    { name: "Web Development Certificate", issuer: "EDUCBA" },
+  const hackathons: Hackathons[] = [
+    { name: "PromptWars Virtual", issuer: "By Google for Developers | Hack2Skills" },
+    { name: "Adobe University Hackathon 2026", issuer: "By Adobe University" },
+    { name: "L'Oréal Brandstorm 2026", issuer: "By L'Oréal India" },
+    { name: "TenzorX 2026", issuer: "By Poonawalla Fincorp" },
+    { name: "Hack for Green Bharat 2026", issuer: "By Tech Masters India" },
+    { name: "Build with TRAE 2026", issuer: "By Hack Briven" },
+    { name: "Hack With Uttar Pradesh 2025", issuer: "Blackbox AI" },
+    { name: "Internal SIH 2025", issuer: "Rajiv Academy for Technology & Management, Mathura" },
+    { name: "Vibe Hackathon 2025", issuer: "Rajiv Academy for Technology & Management, Mathura" },
   ]
 
   const experiences: ExperienceItem[] = [
+    {
+      company: "Revival",
+      position: "CEO & Founder",
+      period: "2026 - Present",
+      description: "CEO & Founder leading Revival’s innovation, growth, and vision.",
+      highlights: [
+        "Strategic product leadership",
+        "Scalable growth execution",
+        "Vision-driven innovation",
+      ],
+    },
     {
       company: "ClaryGuide",
       position: "CEO & Founder",
@@ -61,13 +76,14 @@ export default function Experience() {
       ],
     },
     {
-      company: "Self-Employed",
+      company: "Self-Employed | Freelancer",
       position: "Full Stack Developer",
-      period: "2024 - 2025",
+      period: "2024 - Present",
       description: "Building and deploying full-stack web applications with modern technologies.",
       highlights: [
-        "Developed Job Opportunities Platform for Jovian",
+        "Created Revival Platform",
         "Created ClaryGuide Platform",
+        "Developed Job Opportunities Platform for Jovian",
         "Deployed projects on Vercel",
       ],
     },
@@ -76,7 +92,7 @@ export default function Experience() {
   return (
     <section id="experience" ref={ref} className="py-16 sm:py-20 md:py-32 relative px-4 sm:px-6">
       <div className="max-w-4xl mx-auto w-full">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12">Experience & Certifications</h2>
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 sm:mb-12">Experiences</h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
           {/* Experience */}
@@ -128,11 +144,11 @@ export default function Experience() {
             </div>
           </div>
 
-          {/* Certifications */}
+          {/* Hackathons */}
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-accent mb-6">Certifications</h3>
+            <h3 className="text-xl sm:text-2xl font-bold text-accent mb-6">Hackathons</h3>
             <div className="space-y-3">
-              {certificates.map((cert, idx) => (
+              {hackathons.map((hackathon, idx) => (
                 <div
                   key={idx}
                   className={`glass-dark p-4 sm:p-5 rounded-lg glow-shadow transition-all duration-700 ${
@@ -145,8 +161,8 @@ export default function Experience() {
                   <div className="flex items-start gap-3">
                     <Award className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                     <div>
-                      <h4 className="font-semibold text-sm sm:text-base text-foreground">{cert.name}</h4>
-                      <p className="text-accent text-xs sm:text-sm">{cert.issuer}</p>
+                      <h4 className="font-semibold text-sm sm:text-base text-foreground">{hackathon.name}</h4>
+                      <p className="text-accent text-xs sm:text-sm">{hackathon.issuer}</p>
                     </div>
                   </div>
                 </div>
